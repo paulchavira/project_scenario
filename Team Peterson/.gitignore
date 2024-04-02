@@ -14,7 +14,3 @@ terraform.tfstate*
 
 # Ignore .terraform directory from submodules
 **/.terraform
-
-# Ignore Ansible configuration and inventory files
-docker_boogaloo_numba_twoo/ansible.cfg
-docker_boogaloo_numba_twoo/inventory
