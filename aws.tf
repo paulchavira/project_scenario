@@ -49,7 +49,7 @@ resource "aws_instance" "example_instance" {
   security_groups              = [aws_security_group.example_sg.name] # make this the name of the created security group
 
   tags = {
-    Name = "example_tag"
+    Name = "WordpressBoogaloo"
   }
 
   metadata_options {
