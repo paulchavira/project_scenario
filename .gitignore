@@ -1,0 +1,16 @@
+# Ignore Terraform state files
+terraform.tfstate*
+*.tfstate*
+
+# Ignore Terraform lock file
+.terraform.lock.hcl
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore files and directories generated during Terraform execution
+*.plan
+*.tfvars
+
+# Ignore .terraform directory from submodules
+**/.terraform
